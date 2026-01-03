@@ -1,0 +1,14 @@
+?.相對路徑(以便攜帶)...
+
+
+[2026-0103]
+=>Push to GitHub!
+
+
+----Init. on Windows [VS Community 2022 (64-bit)]----
+
+!.清單資料檔,無法接受以Unicode格式儲存...
+
+[獨立執行檔]
+
+!.(Windows)僅複製 執行檔 & DLLs, 似乎x無法攜行...

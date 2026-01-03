@@ -1,0 +1,17 @@
+@C:\temp\compare\V2
+#PicFileName,OriginShiftX(Left),OriginShiftY(Top),SizeRatio,PlaySeconds
+std-size.gif,-1,300,1.00,10
+c29.pak,430,430,1.00,8
+c35.pak,120,120,0.80,5
+c36.pak,2,-1,0.72,5
+m06.pak,0,-1,0.73,8
+f38.pak,0,0,0.68,8
+b23.pak,0,1120,0.80,5
+m08.pak,0,0,0.70,8
+m18.pak,0,650,0.70,5
+m18.pak,0,-1,0.70,5
+m28.pak,0,760,1.00,5
+m45.pak,0,690,0.70,5
+n04.pak,0,510,0.60,6
+n12.pak,0,600,0.60,6
+f24.pak,0,400,0.71,6
