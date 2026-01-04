@@ -141,6 +141,8 @@
     <ClCompile Include="PicInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="aika.dat" />
+    <None Include="makefile" />
     <None Include="picList00.dat" />
     <None Include="picList00.ipl" />
     <None Include="picList01.dat" />

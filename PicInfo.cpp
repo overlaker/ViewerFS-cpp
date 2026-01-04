@@ -16,7 +16,7 @@ sf::Image PicListToPlay::RenderNextPic(bool forward, float& ratio, sf::Vector2i&
     else if (cur_img_idx == -1) cur_img_idx = photolist.size() - 1;
     PicDispInfo pic = photolist.at(cur_img_idx);
 
-    string img_file = srcPath.substr(1) + "\\" + pic.getFilename();
+    string img_file = srcPath.substr(1) + "/" + pic.getFilename();
     cout << "displaying file: " << img_file << endl;
     
     bool _extra_enable = false;  //為比較基準一致,暫且關閉此功能...
