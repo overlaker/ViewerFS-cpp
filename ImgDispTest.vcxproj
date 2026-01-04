@@ -142,6 +142,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="picList00.dat" />
+    <None Include="picList00.ipl" />
     <None Include="picList01.dat" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

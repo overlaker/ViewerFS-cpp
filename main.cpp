@@ -5,14 +5,23 @@
 
 using namespace std;
 
-int main() {
+int main(int argc, char* argv[]) {
     int scr_w = SCR_Width;
     int scr_h = SCR_Height;
 
     //清單檔案
-    string listFile = "picList00.ipl";  //C:\temp\compare\
+    string listFile = "picList00.ipl";  //C:\temp\compare
+
+    cout << "argv[0]: " << argv[0] << endl;
+    if (argc > 1)
+    {
+        listFile = argv[1];
+    }
+    cout << "argc = " << argc << "; listFile = " << listFile << endl;
+
     //檔案共同路徑
     string srcPath;
+
     //圖檔list,包含所有檔案與顯示資訊~
     vector<PicDispInfo> photolist;
 
